@@ -12,7 +12,7 @@ function Letter() {
   const fetchLetter = async () => {
     try {
       const response = await fetch(
-        "https://f032-2401-4900-1c01-e5f8-9804-38c9-e300-adda.ngrok-free.app/random-letter"
+        "void-whispers-production.up.railway.app/random-letter"
       );
       const text = await response.text(); // First, get raw text
       console.log("Raw Response:", text);

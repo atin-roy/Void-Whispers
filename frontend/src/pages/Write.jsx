@@ -14,7 +14,7 @@ function Write() {
 
     try {
       const response = await fetch(
-        "https://f032-2401-4900-1c01-e5f8-9804-38c9-e300-adda.ngrok-free.app/write-letter",
+        "void-whispers-production.up.railway.app/write-letter",
         {
           method: "POST",
           headers: {
