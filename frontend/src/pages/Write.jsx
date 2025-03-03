@@ -14,7 +14,7 @@ function Write() {
 
     try {
       const response = await fetch(
-        "void-whispers-production.up.railway.app/write-letter",
+        "https://void-whispers-production.up.railway.app/write-letter",
         {
           method: "POST",
           headers: {

@@ -12,7 +12,7 @@ function Letter() {
   const fetchLetter = async () => {
     try {
       const response = await fetch(
-        "void-whispers-production.up.railway.app/random-letter"
+        "https://void-whispers-production.up.railway.app/random-letter"
       );
       const text = await response.text(); // First, get raw text
       console.log("Raw Response:", text);
