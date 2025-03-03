@@ -1,0 +1,14 @@
+.container {
+  background-color: antiquewhite;
+  padding: 2em;
+  margin: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5em;
+}
+
+.option-icon {
+  font-size: 5em;
+}

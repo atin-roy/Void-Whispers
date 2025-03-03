@@ -1,8 +1,10 @@
-import Navbar from "../components/Navbar";
+import { OpenBottle } from "../components/OpenBottle";
+import { SendBottle } from "../components/SendBottle";
 function Home() {
   return (
     <div>
-      <Navbar />
+      <OpenBottle />
+      <SendBottle />
     </div>
   );
 }
